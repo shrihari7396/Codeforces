@@ -22,18 +22,20 @@ void solve() {
         printVec(nums);
         return;
     } else {
-        for(int i=0;i<n;i++) {
-            if(!(i%(k-1))) {
-                nums[i]=cnt++;
-            }
-        }
         int i=0;
-        while (cnt<=n && i<n)
-        {
-            if(nums[i]==-1) {
-                nums[i]=cnt++;
+        int curr=1;
+        while(i<nums.size()) {
+            if(cnt==k) {
+                nums[i]=curr++;
+                cnt=0;
             }
+            cnt++;
             i++;
+        }
+        for(int i=0;i<nums.size();i++) {
+            if(nums[i]==-1) {
+                nums[i]=curr++;
+            }
         }
         printVec(nums);
     }
