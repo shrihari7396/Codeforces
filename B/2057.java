@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class 2057 {4
+public class A2057 {4
     private static void solve(List<Integer> list, int n) {
         
     }

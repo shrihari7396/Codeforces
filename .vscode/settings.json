@@ -5,6 +5,10 @@
         "*.tcc": "cpp",
         "map": "cpp",
         "unordered_map": "cpp",
-        "set": "cpp"
-    }
+        "set": "cpp",
+        "iosfwd": "cpp",
+        "*.gitignore": "cpp",
+        "thread": "cpp"
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }

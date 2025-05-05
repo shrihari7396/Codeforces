@@ -31,7 +31,6 @@ int main() {
         } else if(k == 1 && !isSorted(boxes, n, k)) {
             cout << "NO" << endl;
         }
-
     }
     return 0;
 } 
